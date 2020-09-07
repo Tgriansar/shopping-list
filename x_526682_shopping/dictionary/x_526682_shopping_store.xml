@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Store" max_length="40" name="x_526682_shopping_store" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="store_name" choice_table="x_526682_shopping_store" display="true" label="Store name" max_length="40" name="store_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Amazon" value="az"/>
+                <element inactive_on_update="false" label="Target" value="t"/>
+                <element inactive_on_update="false" label="Walmart" value="Wal"/>
+                <element inactive_on_update="false" label="Whole Foods" value="wf"/>
+            </choice>
+        </element>
+    </element>
+</database>
